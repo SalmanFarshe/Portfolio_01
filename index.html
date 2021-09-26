@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<!-- cdn goes here -->
+	<!-- animate -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<!-- owl carusel -->
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+	<!-- root css goes here -->
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+	<!-- ------------header menu start-------------- -->
+	<div class="header">
+		<div class="header_logo">
+			<p onclick="zoomouterFunction();" class="header_logo_p">Slide</p>
+		</div>
+
+		<div class="header_nav">
+			<ul class="nav_ul">
+				<li class="nav_li"><a href="#slide_01" class="nav_link">Home</a></li>
+				<li class="nav_li"><a href="#slide_02" class="nav_link">Videos</a></li>
+				<li class="nav_li"><a href="#slide_03" class="nav_link">Features</a></li>
+				<li class="nav_li"><a href="#slide_04" class="nav_link">Casestudy</a></li>
+				<li class="nav_li"><a href="#slide_05" class="nav_link">Pricing</a></li>
+				<li class="nav_li"><a href="#slide_06" class="nav_link">Download</a></li>
+			</ul>
+		</div>
+
+		<div class="header_button">
+			<button class="header_button_design" type="button">Profile</button>
+			<button class="header_button_design header_button_extra_desin" type="button">
+				Get App
+			</button>
+		</div>
+	</div>
+	<!-- ------------header menu end---------------- -->
+
+	<div class="wrapper owl-carousel">
+		<!-- ---------------slide 01 start----------- -->
+		<div id="slide_01">
+			<div class="slide_01">
+				<div class="sliding_img">
+					<img src="img/background-1.jpg" alt="" class="" />
+				</div>
+				<div class="sliding_img_mask"></div>
+				<div class="slide_01_info">
+					<span class="slide_01_info_heading">Free horizontal slides template by FreeHTML5</span>
+					<p class="slide_01_info_para">
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi unde
+						nobis eaque rerum ipsam animi illum aliquid dolor laborum vel.
+					</p>
+					<button type="button" class="slide_01_info_button">Get Started</button>
+					<button type="button" class="slide_01_info_button button_extra_style">
+						Learn More
+					</button>
+				</div>
+				<div class="slide_01_img_portion" onclick="zoomouterFunction();"></div>
+				<div class="slide_01_img_portion">
+					<img onclick="zommingFunction();" src="img/img_01.png" alt="" class="slide_01_img" />
+					<div class="img_outer" onclick="zoomouterFunction();"></div>
+				</div>
+			</div>
+		</div>
+		<!-- ---------------slide 01 end----------- -->
+
+		<!-- ---------------slide 02 start----------- -->
+		<div id="slide_02">
+			<div class="slide_02">
+				<div class="sliding_img">
+					<img src="img/background-2.jpg" alt="" class="" />
+				</div>
+
+				<div class="sliding_img_mask"></div>
+
+				<div class="slide_01_info slide_02_info_extra_style">
+					<span class="slide_01_info_heading">Krabi Island</span>
+					<p class="slide_01_info_para">
+						An electrician isn’t an opinion former, but a graphic designer is. My
+						argument is that all graphic designers hold high levels of responsibility
+						in society.
+					</p>
+					<div class="button_wrapper">
+						<button onclick="clickForVideo01()" type="button" class="slide_02_video_button button_1">
+							KRABI ISLAND
+						</button>
+						<button onclick="clickForVideo02()" type="button" class="slide_02_video_button button_2">
+							COMMUNITY
+						</button>
+						<button onclick="clickForVideo03()" type="button" class="slide_02_video_button button_3">
+							SURFING
+						</button>
+					</div>
+				</div>
+				<div class="slide_02_video_portion">
+					<div class="slide_02_video">
+						<img src="img/thmb_01.jpg" alt="" class="vdo_thmb vdo_thmb_1" />
+						<div class="play_button_bg_01">
+							<div class="play_button"></div>
+							<div class="play_button_2"></div>
+						</div>
+					</div>
+					<div class="slide_02_video">
+						<img src="img/thmb_02.jpg" alt="" class="vdo_thmb vdo_thmb_2" />
+						<div class="play_button_bg_02">
+							<div class="play_button"></div>
+							<div class="play_button_2"></div>
+						</div>
+					</div>
+					<div class="slide_02_video">
+						<img src="img/thmb_03.jpg" alt="" class="vdo_thmb vdo_thmb_3" />
+						<div class="play_button_bg_03">
+							<div class="play_button"></div>
+							<div class="play_button_2"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ---------------slide 02 end----------- -->
+
+		<!-- ---------------slide 03 start----------- -->
+		<div id="slide_03" class="slide_03">
+			<div class="sliding_img">
+				<img src="img/background-3.jpg" alt="" class="" />
+			</div>
+
+			<div class="sliding_img_mask"></div>
+
+			<div class="slide_03_product_portion">
+				<div class="product_img">
+					<img src="img/watch-26-1.png" onclick="imgNexter01();" alt="" class="img_1" id="img_1" />
+					<img src="img/watch-26-2.png" onclick="imgNexter02();" alt="" class="img_2" id="img_2" />
+					<img src="img/watch-26-1.png" onclick="imgNexter03();" alt="" class="img_3" id="img_3" />
+					<img src="img/watch-26-2.png" onclick="imgNexter04();" alt="" class="img_4" id="img_4" />
+
+					<div class="img_indicator">
+						<div onclick="imgChanger01();" class="indicator_1"></div>
+						<div onclick="imgChanger02();" class="indicator_2 indicator_active"></div>
+						<div onclick="imgChanger03();" class="indicator_3"></div>
+						<div onclick="imgChanger04();" class="indicator_4"></div>
+					</div>
+				</div>
+
+				<div class="slide_03_sidebar">
+					<h1 class="slide_03_sidebar_heading">Be creative</h1>
+					<p class="slide_03_sidebar_para">
+						When we feel less secure, with less control over our daily lives, we
+						reach out to brands to connect with a time when things seemed better.
+					</p>
+				</div>
+
+				<div class="slide_03_sidebar_description">
+					<img src="img/icon-2.png" alt="" class="slide_03_sidebar_description_img" />
+					<h2 style="color: white; margin: 35px 0px 15px 0px; grid-column: 3/-1">
+						Ember for Apple Watch
+					</h2>
+					<p style="
+								color: #b08e95;
+								font-size: 18px;
+								line-height: 30px;
+								grid-column: 3/-1;
+							">
+						People don’t use a product
+					</p>
+					<p style="
+								color: #b08e95;
+								font-size: 18px;
+								line-height: 30px;
+								grid-column: 3/-1;
+							">
+						because of the great design
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="slide_03" id="slide_03-2">
+			<div class="sliding_img">
+				<img src="img/background-3.2.jpg" alt="" class="" />
+			</div>
+
+			<div class="sliding_img_mask"></div>
+
+			<div class="slide_03_product_portion">
+				<div class="product_img">
+					<img src="img/watch-26-1.png" onclick="imgNexter05();" alt="" class="img_1" id="img_1-1" />
+					<img src="img/watch-26-2.png" onclick="imgNexter06();" alt="" class="img_2" id="img_2-2" />
+					<img src="img/watch-26-1.png" onclick="imgNexter07();" alt="" class="img_3" id="img_3-3" />
+					<img src="img/watch-26-2.png" onclick="imgNexter08();" alt="" class="img_4" id="img_4-4" />
+
+					<div class="img_indicator">
+						<div onclick="imgChanger05();" class="indicator_1 indicator_5"></div>
+						<div onclick="imgChanger06();" class="indicator_2 indicator_active indicator_6"></div>
+						<div onclick="imgChanger07();" class="indicator_3 indicator_7"></div>
+						<div onclick="imgChanger08();" class="indicator_4 indicator_8"></div>
+					</div>
+				</div>
+
+				<div class="slide_03_sidebar">
+					<h1 class="slide_03_sidebar_heading">Be creative</h1>
+					<p class="slide_03_sidebar_para">
+						When we feel less secure, with less control over our daily lives, we
+						reach out to brands to connect with a time when things seemed better.
+					</p>
+				</div>
+
+				<div class="slide_03_sidebar_description">
+					<img src="img/icon-1.png" alt="" class="slide_03_sidebar_description_img" />
+					<h2 style="
+								color: white;
+								margin: 35px 0px 15px 0px;
+								font-size: 25px;
+								grid-column: 3/-1;
+							">
+						Ember for Apple Watch
+					</h2>
+					<p style="
+								color: #b08e95;
+								font-size: 18px;
+								line-height: 25px;
+								grid-column: 3/-1;
+							">
+						People don’t use a product
+					</p>
+					<p style="
+								color: #b08e95;
+								font-size: 18px;
+								line-height: 25px;
+								grid-column: 3/-1;
+							">
+						because of the great design
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- ---------------slide 03 end----------- -->
+
+		<!-- ---------------slide 04 start----------- -->
+		<div id="slide_04">
+			<div class="slide_04">
+				<div class="sliding_img">
+					<img src="img/background-4.jpg" alt="" class="" />
+				</div>
+
+				<div class="sliding_img_mask"></div>
+
+				<div class="slide_04_wrap">
+					<div class="slide_04_info_section">
+						<p class="slide_04_info_section_p">Case Study</p>
+						<span class="slide_04_info_section_heading">Discomfort is a signal of a good concept</span>
+						<button class="slide_04_info_section_button">Purchase</button>
+					</div>
+
+					<div class="slide_04_footer_section">
+						<div class="div_01">
+							<h3 class="">Insperation</h3>
+							<p class="">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+								deleniti.
+							</p>
+						</div>
+						<div class="div_02">
+							<h3 class="">Creativity</h3>
+							<p class="">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+								deleniti.
+							</p>
+						</div>
+						<div class="div_03">
+							<h3 class="">Fashion</h3>
+							<p class="">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+								deleniti.
+							</p>
+						</div>
+						<div class="div_04">
+							<h3 class="">Photography</h3>
+							<p class="">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+								deleniti.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ---------------slide 04 end----------- -->
+
+		<!-- ---------------slide 05 start----------- -->
+		<div id="slide_05" class="slide_05">
+			<div class="sliding_img">
+				<img src="img/background-5.jpg" alt="" class="" />
+			</div>
+
+			<div class="sliding_img_mask"></div>
+
+			<div class="slide_05_wrapper">
+				<h1 class="slide_05_wrapper_heading">Pricing</h1>
+
+				<div class="pricing_div extra_radius_1">
+					<div class="pricing_sub_div">
+						<p class="pricing_div_p">Moon</p>
+						<span class="slide_05_span_1">$</span>
+						<p style="display: inline; font-size: 100px">0</p>
+						<p style="
+									color: #a0a4a5;
+									font-weight: bold;
+									margin-top: 25px;
+									margin-bottom: 25px;
+								">
+							NO CREDIT CARD NEEDED
+						</p>
+						<p>
+							<b>25 Free Images</b> <br /><br />
+							Custom Domain 24/7 <br /><br />
+							Customer Support
+						</p>
+						<button class="free_pricing_button" type="button">Try Free</button>
+					</div>
+				</div>
+				<div class="pricing_div no_radius">
+					<div class="pricing_sub_div">
+						<p class="pricing_div_p">Planet</p>
+						<span class="slide_05_span_2">$</span>
+						<p style="display: inline; font-size: 100px">6</p>
+						<p style="
+									color: #a0a4a5;
+									font-weight: bold;
+									margin-top: 25px;
+									margin-bottom: 25px;
+								">
+							BILLED PER MONTH
+						</p>
+						<p>
+							<b> 60 Free Images</b> <br /><br />
+							Mobile-Optimized<br />
+							<br />
+							No Transaction Fees<br />
+						</p>
+						<button class="pricing_button pricing_button_extra_style" type="button">
+							Purcash
+						</button>
+					</div>
+				</div>
+				<div class="pricing_div extra_radius_2">
+					<div class="pricing_sub_div">
+						<p class="pricing_div_p">Galaxy</p>
+						<span class="slide_05_span_3">$</span>
+						<p style="display: inline; font-size: 100px">24</p>
+						<p style="
+									color: #a0a4a5;
+									font-weight: bold;
+									margin-top: 25px;
+									margin-bottom: 25px;
+								">
+							BILLED PER MONTH
+						</p>
+						<p>
+							<b>60 Free Images </b> <br /><br />
+							Mobile-Optimized No <br /><br />
+							Transaction Fees Unlimited
+						</p>
+						<button class="pricing_button" type="button">Purcash</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ---------------slide 05 end----------- -->
+
+		<!-- ----------slide 06 start-------------- -->
+		<div id="slide_06">
+			<div class="slide_06">
+				<div class="sliding_img">
+					<img src="img/background-6.jpg" alt="" class="" />
+				</div>
+				<div class="sliding_img_mask"></div>
+
+				<div class="slide_06_info_section">
+					<span class="slide_06_info_heading">Download Mobile App</span>
+					<p class="slide_06_info_sub_heading">Learning never exhausts the mind.</p>
+					<input type="email" placeholder="E-mail address" class="slide_06_info_input" />
+					<button class="slide_06_info_submit_button">Try it Free</button>
+					<br />
+					<img src="img/appstore.jpg" alt="" class="appstore" />
+					<img src="img/googleplay.jpg" alt="" class="googleplay" />
+				</div>
+			</div>
+		</div>
+		<!-- ----------slide 06 end-------------- -->
+	</div>
+
+	<!-- jquery.js start here-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+	<!-- owl js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.9/jquery.mousewheel.min.js"
+		integrity="sha512-SPp6iDbaan8DDRfJ4042fSoJkPwsceVoPFlgaaEr7ul8LoAq//8RAuX464seitWaBEBJE99E1/5rKSSDRrLIxg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+		integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<script src="js/myScript.js"></script>
+</body>
+
+</html>
